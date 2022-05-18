@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header-section{
+    background-image: url("../images/Rectangle\ 4365\ \(1\).svg");
+    Width:1440px;
+    height:350px ;
+}
+.contact{
+    text-align: center;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 76.8px;
+    color: white;
+padding: 70px;
+
+}
+.form-header{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38.4px;
+    color: #424243;
+    text-transform:capitalize;
+}
+.form{
+    display: flex;
+    border-radius: 10px;
+position: absolute;
+bottom: -380px;
+left: 50%;
+transform: translate(-50%, -50%);
+background-color: white;
+  
+    
+}
+form{
+    width: 650px; 
+    padding: 20px;  
+}
+.form-flex{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 10px;
+}
+.form-flex div{
+    width: 100%;
+}
+label{
+    color: #424243;
+}
+input{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    /* resize:vertical; */
+    margin: 8px 0;
+    display: flex;
+    background-color: rgba(229, 229, 229, 0.6);
+    color: rgba(0, 0, 0, 0.6);
+    box-sizing: border-box;
+}
+textarea{
+    width: 80%;
+    height: 200px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    /* resize:vertical; */
+    margin: 8px 0;
+    display: flex;
+    background-color: rgba(229, 229, 229, 0.6);
+    color: rgba(0, 0, 0, 0.6);
+    box-sizing: border-box;
+}
+.send{
+    text-decoration: none;
+    color: white;
+
+}
+.one{
+    color: #A91F2F;
+}
+.send-message{
+    border: none;
+    background-color: #A91F2F;
+
+    margin-top: 15px;
+   
+    border-radius: 4px;
+    width: 30%;
+    padding: 10px;
+}
+.address{
+    width: 312px;
+    background-color: #353549;
+}
+.locate{
+    padding: 20px;
+}
+.locate div{
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+.image img{
+    width: 100%;
+    color: white;
+    /* background-color: white; */
+}
+.contact-info{
+    font-weight: 700;
+    font-size: 32px;
+}
